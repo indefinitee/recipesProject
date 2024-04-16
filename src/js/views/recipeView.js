@@ -5,7 +5,7 @@ import icons from 'url:../../img/icons.svg';
 
 class RecipeView extends View {
 	_parentElement = document.querySelector('.recipe');
-	_errorMessage = 'Could not find that recipe';
+	_errorMessage = 'Не получилось найти рецепт';
 	_message = '';
 
 	addHandlerRender(handler) {

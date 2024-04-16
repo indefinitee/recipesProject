@@ -4,7 +4,7 @@ import previewView from './previewView.js';
 
 class BookmarksView extends View {
 	_parentElement = document.querySelector('.bookmarks__list');
-	_errorMessage = 'No bookmarks yet';
+	_errorMessage = 'Нет избранных рецептов';
 	_message = '';
 
 	addHandlerRender(handler) {
